@@ -77,7 +77,8 @@ input[type="number"]:focus,
 input[type="tel"]:focus,
 textarea:focus,
 select:focus {
-
+		border: 1px solid #66D9EF;
+		outline: 0;
 }
 textarea {
 
@@ -96,8 +97,9 @@ textarea {
 	display: inline-block;
 	font:700 24px/1 Arial , sans-serif;
 	color:  #1b1c1d;
-	margin: 0;
-	margin-left: 5px;
+	margin:3px 0px;
+	background: #fff url('../img/key.png') no-repeat 0;
+	padding-left: 34px;
 }
 .ba-daily-form__login {
 	color:  #797b7f;
